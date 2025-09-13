@@ -1,0 +1,10 @@
+Date: 2025-08-26
+Session: Weekly Mentoring
+Participants: Alice, Bob
+Notes:
+We reviewed the ETL tasks and discussed edge cases for text parsing.
+Decisions:
+- Keep filename as a fallback session title if missing.
+Action Items:
+- Alice: Prepare regex variants for date formats.
+- Bob: Draft README Quickstart.
