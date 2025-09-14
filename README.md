@@ -6,6 +6,11 @@ Automates the conversion of text-based meeting or mentoring logs into structured
 텍스트 형식의 멘토링/회의 일지를 자동으로 정리하여 Excel 파일로 변환하는 프로젝트입니다.  
 (PoC 수준의 개인 프로젝트로 시작했으며, 반복 업무를 줄이기 위한 자동화 도구입니다.)
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Pandas](https://img.shields.io/badge/Pandas-2.0+-green.svg)
+![OpenPyXL](https://img.shields.io/badge/OpenPyXL-3.1+-yellow.svg)
+![Gemini](https://img.shields.io/badge/Google%20Gemini-API-orange.svg)
+
 ## ✨ Features
 
 텍스트 로그(txt)를 읽어 자동으로 구조화
@@ -71,3 +76,10 @@ dotenv
 | 일자 및 시간    | 참석자        | 내용         | 결정사항         |
 | ---------- | ---------- | ---------- | ------------ |
 | 2025-08-25 | 김A, 이B, 박C | 프로젝트 일정 논의 | 로그 파서 PoC 진행 |
+
+## 💡 What I Learned
+- Google Generative AI(Gemini) API 연동 경험
+- 텍스트 로그를 구조적 JSON → 엑셀로 매핑하는 파이프라인 설계
+- Git/GitHub 협업 플로우 (rebase, conflict resolution 등)
+
+
